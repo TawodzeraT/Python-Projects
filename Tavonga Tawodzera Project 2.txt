@@ -1,0 +1,59 @@
+# Program Name: Quinary-Decimal Converter
+# Author: Tavonga Tawodzera
+# Date: 2025-09-30
+# Description: This program converts numbers between quinary (base 5) and decimal (base 10).
+# The user chooses the conversion type. Loops and selection statements are used as required.
+
+
+# Repetition: added loop so program keeps running until user quits
+while True:   
+    conversion_type = input("\nEnter conversion type: quinary to decimal (q), decimal to quinary (d), or exit (x): ")
+#Input: ask the user for type of conversion
+    if conversion_type.lower() == 'x':  
+        print("Goodbye!")
+        break
+
+#Initialze variables for calculation
+    
+    if conversion_type.lower() == 'q':
+# Input: get quinary number from user
+
+        quinary_number = int(input("Enter a number whose digits range from 0 to 4: "))
+
+# Initialize variables for calculation
+
+        decimal_number = 0  
+        power = 0
+        
+ # Loop: convert quinary to decimal
+ 
+        while quinary_number > 0:
+            remainder = quinary_number % 10
+            decimal_number += remainder * (5 ** power)
+            quinary_number //= 10
+            power += 1
+            
+# Output: show result
+
+        print("The decimal of your number is:", decimal_number)
+
+    elif conversion_type.lower() == 'd':
+        decimal_number = int(input("Enter a decimal number: "))
+        
+        quinary_string = ""
+        
+ # Loop: repeatedly divide by 5 to build quinary string
+ 
+        while decimal_number > 0:
+            remainder = decimal_number % 5
+            quinary_string = str(remainder) + quinary_string
+            decimal_number //= 5
+            
+# Output: show result
+
+        print("The quinary of your number is:", quinary_string)
+        
+ # Selection: handle invalid input
+ 
+    else:
+        print("Invalid choice. Please enter 'q', 'd', or 'x'.")   

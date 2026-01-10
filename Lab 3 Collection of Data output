@@ -1,0 +1,24 @@
+Python 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+================================================== RESTART: C:/Users/tavon/OneDrive/Desktop/computer projects/Lab 3 Collection of Data =================================================
+Please input the number of grades to be read in. (1-50)
+6
+All grades must be upper case A B C D or F
+Input a grade
+A
+Input a grade
+C
+Input a grade
+A
+Input a grade
+B
+Input a grade
+B
+Input a grade
+D
+Number of A= 2
+Number of B= 2
+Number of C= 1
+Number of D= 1
+Number of F= 0

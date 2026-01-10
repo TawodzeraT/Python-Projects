@@ -1,0 +1,23 @@
+Python 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: C:\Users\tavon\OneDrive\Desktop\computer projects\CS 115U Python Project 4 (Snowman).py
+Welcome to the SnowMan Drawing Program!
+Please enter the following dimensions:
+
+Enter hat crown length: 60
+Enter hat brim length: 
+= RESTART: C:\Users\tavon\OneDrive\Desktop\computer projects\CS 115U Python Project 4 (Snowman).py
+Welcome to the SnowMan Drawing Program!
+Please enter the following dimensions:
+
+Enter hat crown length: 40
+Enter hat brim length: 60
+Enter hat brim width: 10
+Enter head radius: 30
+Enter mid-section radius: 45
+Enter base radius: 60
+Enter arms length: 50
+
+Snowman drawing complete!
+Click on the graphics window to close.

@@ -1,0 +1,37 @@
+#Name :Tavonga Tawodzera
+# project : Lab Collection of Data
+# Date:  29 November 2025
+
+
+
+def main():
+    # Ask how many grades will be entered
+    print("Please input the number of grades to be read in. (1-50)")
+    num = int(input())
+
+    print("All grades must be upper case A B C D or F")
+
+    # Create a list to store grades
+    grades = []
+
+    # Input each grade
+    for i in range(num):
+        grade = input("Input a grade\n").upper()
+        grades.append(grade)
+
+    # Count each grade type
+    a_count = grades.count("A")
+    b_count = grades.count("B")
+    c_count = grades.count("C")
+    d_count = grades.count("D")
+    f_count = grades.count("F")
+
+    # Print results
+    print("Number of A=", a_count)
+    print("Number of B=", b_count)
+    print("Number of C=", c_count)
+    print("Number of D=", d_count)
+    print("Number of F=", f_count)
+
+# Run the program
+main()

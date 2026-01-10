@@ -1,0 +1,25 @@
+def main():
+    # initializations at the top
+    total    = 0.0
+    numHours = 0.0
+    average  = 0.0
+    
+    print("This program will find the average number of hours a day "
+          "that a student spent programming over a long weekend\n")
+
+    numStudents = int(input("How many students are there? "))
+    numDays = int(input("Enter the number of days in the long weekend: "))
+
+    for student in range(numStudents):
+        total = 0.0   
+
+        for day in range(numDays):
+            numHours = float(input(f"Please enter the number of hours worked by "
+                                   f"student {student+1} on day {day+1}: "))
+            total += numHours
+
+        average = total / numDays
+        print(f"The average number of hours per day spent programming by "
+              f"student {student+1} is {average:.1f}\n")
+
+main()

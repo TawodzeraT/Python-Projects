@@ -1,0 +1,19 @@
+
+
+def main():
+    # Ask for number of tellers
+    num_tellers = int(input("How many tellers worked at Nation’s Bank during each of the last three years ?\n"))
+    
+    total_days_missed = 0
+    
+    # Loop through each teller
+    for teller in range(1, num_tellers + 1):
+        for year in range(1, 4):
+            days = int(input(f"How many days was teller {teller} out sick during year {year} ?\n"))
+            total_days_missed += days
+    
+    # Output result
+    print(f"\nThe {num_tellers} tellers were out sick for a total of {total_days_missed} days during the last 3 years.")
+
+# Run program
+main()

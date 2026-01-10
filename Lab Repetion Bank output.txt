@@ -1,0 +1,20 @@
+Python 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+======= RESTART: C:/Users/tavon/OneDrive/Documents/Lab Repetion Bank.txt =======
+How many tellers worked at Nation’s Bank during each of the last three years ?
+2
+How many days was teller 1 out sick during year 1 ?
+5
+How many days was teller 1 out sick during year 2 ?
+8
+How many days was teller 1 out sick during year 3 ?
+2
+How many days was teller 2 out sick during year 1 ?
+1
+How many days was teller 2 out sick during year 2 ?
+0
+How many days was teller 2 out sick during year 3 ?
+3
+
+The 2 tellers were out sick for a total of 19 days during the last 3 years.

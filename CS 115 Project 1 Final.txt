@@ -1,0 +1,40 @@
+Python 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 5/2
+2.5
+>>> 5//2
+2
+>>> speed =75
+>>> time =3.2
+>>> distance =speed*time
+>>> print(distance)
+240.0
+>>> result =9%2
+>>> print(result)
+1
+>>> print("215 AT Building\n","470 Cooper Dr.\n","Lexington\tKY 40506")
+215 AT Building
+ 470 Cooper Dr.
+ Lexington	KY 40506
+>>> print(format(3465.1482,'7.2f'))
+3465.15
+>>> print()
+
+>>> custNumber =1111
+>>> custName ="John Doe"
+>>> balance =312
+>>> print(format("CUSTOMER NUM","<14s"),format("CUSTOMER NAME","<15s"),format("BALANCE",">7s"))
+CUSTOMER NUM   CUSTOMER NAME   BALANCE
+>>> print(format(custNumber,"<14d"),format(custName,"<15s"),format(balance,">7.2f"))
+1111           John Doe         312.00
+>>> balance =float(input("Enter the balance"))
+Enter the balance 150
+>>> if balance<=200:
+...     print(format("Insufficient funds: balance must be more than","<50s"),format(200.000,">7.2f"))
+... 
+...     
+Insufficient funds: balance must be more than       200.00
+>>> if balance >200:
+...     print(format("You have sufficient funds with your balance of","<50s"),format(200.000,">7.2f"))
+... 
+...     

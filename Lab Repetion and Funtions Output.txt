@@ -1,0 +1,16 @@
+Python 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+=== RESTART: C:/Users/tavon/OneDrive/Documents/Lab Repetion and Fucntions.txt ==
+This program will find the average number of hours a day that a student spent programming over a long weekend
+
+How many students are there? 2
+Enter the number of days in the long weekend: 2
+Please enter the number of hours worked by student 1 on day 1: 4
+Please enter the number of hours worked by student 1 on day 2: 6
+The average number of hours per day spent programming by student 1 is 5.0
+
+Please enter the number of hours worked by student 2 on day 1: 9
+Please enter the number of hours worked by student 2 on day 2: 13
+The average number of hours per day spent programming by student 2 is 11.0
+
